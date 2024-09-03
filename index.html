@@ -1,164 +1,137 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dennis Ivy</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/theme-switcher.css">
-    </head>
-    <body>
-        <div id="container--main">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shardul Kulkarni's Portfolio</title>
+    <meta name="description" content="Shardul Kulkarni's personal portfolio showcasing skills, projects, and experience in electronic engineering and software development.">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/theme-switcher.css">
+    <style>
+        /* Additional CSS for better readability */
+        .bio-paragraph {
+            margin-bottom: 20px;
+        }
+        #contact-info {
+            margin-top: 20px;
+        }
+        #contact-info p {
+            margin: 5px 0;
+        }
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container--main">
 
-            <section id="wrapper--hero" class="section--page">
-                <img id="profile-pic" src="./assets/images/profile_pic.png">
-
-                <div>
-                    <h1 id="user-name">Dennis Ivy</h1>
-                    <p id="bio">Software developer, developer advocate at <a href="https://www.appwrite.io/" target="_blank">Appwrite</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
-                    <p id="email">👉 dennis@dennisivy.com</p>
-                </div>  
-            </section>
-
-            <section class="section--page">
-        
-                <div id="socials--list">
-                    <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
-                    <a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a>
-                    <a href="https://www.linkedin.com/in/dennis-ivanov/" target="_blank">Linkedin</a>
-                    <a href="https://github.com/divanov11" target="_blank">Github</a>
-                    <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
+        <!-- Hero Section -->
+        <section id="wrapper--hero" class="section--page">
+            <img id="profile-pic" src="./assets/images/profile_pic.png" alt="Profile Picture">
+            <div>
+                <h1 id="user-name">Shardul Kulkarni</h1>
+                <p id="bio">
+                    As a second-year B.Tech student in Electronic Engineering at MITAOE, I am dedicated to excellence and innovation. I love exploring different areas of technology and facing unique challenges. I'm fascinated by coding languages like Python, C, and Java. I work hard to master them and use them to create new solutions and explore data science.
+                </p>
+                <p class="bio-paragraph">
+                    This mix of coding and electronic engineering drives my passion for learning. I constantly seek out new projects and challenges that push my abilities and expand my understanding. My goal is to use my skills in electronic engineering and coding to help advance technology. I want to work in areas like signal processing, VLSI design, digital design, semiconductor physics, and control systems to create innovations that shape the future.
+                </p>
+                <p class="bio-paragraph">
+                    I participate in workshops, collaborate on projects, and stay updated with the latest advancements in the field, always eager to apply my knowledge in practical ways. With a commitment to continuous learning, I aim to make meaningful contributions that drive progress and propel the field of electronics forward. I am excited about the future and look forward to the opportunities to innovate and make a difference in technology.
+                </p>
+                <p id="email">👉 shardulkulkarni1020@gmail.com</p>
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shardul-kulkarni/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/shardul9320" target="_blank">GitHub</a>
                 </div>
-            </section>
+                <!-- Download Resume Button -->
+                <a href="./assets/files/Shardul_Kulkarni_Resume.pdf" class="download-btn" download>Download Resume</a>
+            </div>
+        </section>
 
-            <section class="section--page">
-                <h2>Skills & Qualifications</h2>
-                <ul id="qualifications--list">
-                    <li>✔️ 10 Years experience in fullstack development</li>
-                    <li>✔️ Tech educator & online instructor (Youtube & Udemy)</li>
-                    <li>✔️ Techincal writing & Blogging</li>
-                    <li>✔️ SEO & paid ad campaigns (Google Adwords)</li>
+        <!-- Skills & Qualifications -->
+        <section class="section--page">
+            <h2>Skills & Qualifications</h2>
+            <ul id="qualifications--list">
+                <li>✔️ Proficient in Python, C, and Java.</li>
+                <li>✔️ Experience with signal processing algorithms and VLSI design.</li>
+                <li>✔️ Knowledge in digital design and semiconductor devices.</li>
+                <li>✔️ Passionate about data science and innovative solutions.</li>
+            </ul>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="section--page">
+            <h2>Tech Stack</h2>
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack"><span>Python, C, Java</span></div>
+                <div class="card--techstack"><span>Signal Processing, VLSI Design</span></div>
+                <div class="card--techstack"><span>Digital Design, Semiconductor Devices</span></div>
+                <div class="card--techstack"><span>Data Science</span></div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Work History</h2>
+            <div class="card--work-history">
+                <strong>🚧 FULL STACK DEVELOPMENT INTERN | META CRAFTLAB PVT. LTD.</strong>
+                <p>01/06/2024 - 12/07/2024</p>
+                <p>The Full Stack Development internship at Meta Craftlab was an intensive program designed to provide hands-on experience in both front-end and back-end development. The internship focused on developing proficiency in HTML, CSS, JavaScript, and backend technologies like Node.js.</p>
+                <ul>
+                    <li>Week 1: Introduction to Meta Craftlab and understanding project requirements.</li>
+                    <li>Week 2-4: Development of front-end and back-end components.</li>
+                    <li>Week 5: Integration of various components and testing.</li>
+                    <li>Week 6: Final project submission and review.</li>
                 </ul>
-            </section>
+            </div>
 
-            <section class="section--page">
-                <h2>Tech stack</h2>
+            <!-- Add other work experience entries here if necessary -->
 
-                <div id="wrapper--techstack__items">
-                    <div class="card--techstack"><span>Python, JavaScript, NodeJS</span></div>
-                    <div class="card--techstack"><span>Django, Express, Flask, FastAPI</span></div>
-                    <div class="card--techstack"><span>React, Next JS</span></div>
-                    <div class="card--techstack"><span>Postgres, MongoDB, MySQL</span></div>
-                </div>
-            </section>
+        </section>
 
-            <section id="work-history-wrapper" class="section--page">
-                <h2>Work History</h2>
+        <!-- Projects -->
+        <section class="section--page">
+            <h2>Projects & Accomplishments</h2>
+            <div class="card--project">
+                <a href="project1.html"><span>🏆 </span>Advanced Signal Processing Algorithm for Real-Time Applications</a>
+            </div>
+        </section>
 
-                <div class="card--work-history">
-                    <strong>🚧 DEVELOPER ADVOCATE | APPWRITE.IO</strong>
-                    <p>9/2023 - present</p>
-                    <p><strong>[Current Challenge]</strong> Working to improve developer adoption and experience across all Appwrites SDKs through educational content on the Appwrite <a href="https://www.youtube.com/appwrite" target="_blank">Youtube channel</a>, <a href="https://appwrite.io/blog/author/dennis-ivy" target="_blank">articles</a>, & <a href="https://www.youtube.com/live/VJvawxeUhN4">community events</a></p>
-                    <strong>[Progress since 9/2023]</strong>
-                    <ul>
-                        <li>Videos +39 | Views +136.6k</li>
-                        <li>Live streams: 5</li>
-                        <li>Articles: 9</li>
-                        <li>Events attended: 4</li>
-                    </ul>
-                </div>
+        <!-- Contact Information -->
+        <section id="contact-info" class="section--page">
+            <h2>Contact Information</h2>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Marital Status:</strong> Single</p>
+            <p><strong>Date of Birth:</strong> 04 Jan, 2005</p>
+            <p><strong>Known Languages:</strong> Marathi, English, Hindi</p>
+            <p><strong>Current Address:</strong> I - 108, Splendid Park Pro., Dudulgaon, Pune, Maharashtra, India - 412105</p>
+            <p><strong>Permanent Address:</strong> 401, Sahara Sun-shine Apartment, Keshav Nagar, Latur, Maharashtra, India - 413512</p>
+            <p><strong>Phone Numbers:</strong> +91-8625908409, +91-9423909409</p>
+            <p><strong>Emails:</strong> shardul.kulkarni@mitaoe.ac.in, shardulkulkarni1020@gmail.com, shardulkulkarni9320@gmail.com</p>
+        </section>
 
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
-                    <p>11/2021 - 9/2023</p>
-                    <p>Worked on making Agora’s Web-Based SDK more accessible through video tutorials, articles, demo projects, and event-based training. Also building out React UI components & leading a team to re-design Agora’s documentation and API reference.</p>
-                    <ul>
-                        <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
-                        <li>Produced educational video content which resulted in 300k+ views on youtube</li>
-                        <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong>🚧 INSTRUCTOR | YOUTUBE, UDEMY, TEACHABLE</strong>
-                    <p>11/2019 - Present</p>
-                    <p>Produced content showcasing new tech, tutorials & interviews with top developers.</p>
-                    <ul>
-                        <li>210k+ Youtube Subscribers</li>
-                        <li>30,000 course copies sold</li>
-                        <li>12+ Million views on Youtube</li>
-                        <li>Made regular contributions to Traversy Medias YouTube channel (1.9m Subscribers)</li>
-                        <li>Tutorial videos included projects such as social networks, E-commerce, real-time video, stripe & PayPal integrations, and more </li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
-                    <p>10/2017 - 10/2019</p>
-                    <p>Designed and developed a laboratory management system. My system
-                        provided an interface for lab technicians and customers to view and
-                        track data from samples tested in the lab.</p>
-                    <ul>
-                        <li>Designed prototype & pitched original idea for new lab management system (LIMS)</li>
-                        <li>Built the entire code base and brought version 1.0 of the LIMS system to market as a solo developer</li>
-                        <li>Onboarded and trained customers (Webinars & Conferences)</li>
-                        <li>Managed a small team of developers in the expansion of the LIMS system</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong>🚧 DIGITAL MARKETER | UNIFIVE DIGITAL</strong>
-                    <p>2014 - 2017</p>
-                    <p>Started a digital agency building websites and marketing for
-                        local businesses.</p>
-                    <ul>
-                        <li>Organized SEO & SEM campaigns on a local and global scale.</li>
-                        <li>Saved a customer $110k a year by reducing Adwords CPC cost with optimization</li>
-                        <li>70 + websites built with my small team of developers and freelancers</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="section--page">
-                <h2>Projects & Accomplishments</h2>
-
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span>Built a Laboratory management system for forensics lab</a>
-                </div>
-
-                <div class="card--project">
-                    <a href="project1.html" ><span>🏆 </span>Documentation website - Lead team to re-build docs for agora.io</a>
-                </div>
-
-                <div class="card--project">
-                    <a href="project1.html" ><span>🏆 </span>Ecommerce platform using paypal and stripe API for payment integration</a>
-                </div>
-
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span>Social Network - open source project</a>
-                </div>
-
-            </section>
-
-       
-        </div>
-        <div id="theme-switcher">
-            <div class="theme" id="theme-light" data-theme="light"></div>
-            <div class="theme" id="theme-dark" data-theme="dark"></div>
-        </div>
-    </body>
+    </div>
+    <div id="theme-switcher">
+        <div class="theme" id="theme-light" data-theme="light"></div>
+        <div class="theme" id="theme-dark" data-theme="dark"></div>
+    </div>
     <script src="js/theme-switcher.js"></script>
+</body>
 </html>
-
-
